@@ -1280,3 +1280,9 @@ if __name__ == "__main__":
     except Exception as e:
         st.error(f"An error occurred: {str(e)}")
         st.info("Please check your internet connection and try again.")
+        
+        
+        
+#RUN THIS: 
+#conda activate myfinance
+#streamlit run dashboard.py
